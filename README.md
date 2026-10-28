@@ -1,6 +1,6 @@
 # Sitemap Builder (Ruby)
 
-A command-line tool that crawls a website and generates a sitemap in the standard [sitemap protocol](https://www.sitemaps.org/protocol.html) XML format. Built as a solution to [Gophercises Exercise #5](https://gophercises.com), written in Ruby.
+A command-line tool that crawls a website and generates a sitemap in the standard [sitemap protocol](https://www.sitemaps.org/protocol.html) XML format. Built as a solution to Gophercises Exercise #5, written in Ruby. See the full [project description](project%20description.md) for the exercise requirements.
 
 ## How it works
 
