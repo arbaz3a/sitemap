@@ -1,40 +1,27 @@
 # Sitemap Builder (Ruby)
 
-A command-line tool that crawls a website and generates a sitemap in the standard [sitemap protocol](https://www.sitemaps.org/protocol.html) XML format. Built as a solution to Gophercises Exercise #5, written in Ruby. See the full [project description](project_description.md) for the exercise requirements.
+A command-line tool that crawls a website and generates a sitemap in the standard [sitemap protocol](https://www.sitemaps.org/protocol.html) XML format. It also records the depth and parent pages of every URL in a separate hierarchy file.
+
+Built as a solution to Gophercises Exercise #5, written in Ruby. See the full [project description](project_description.md) for the exercise requirements.
 
 ## How it works
 
 1. Takes a starting URL from the command line.
 2. Fetches the page and extracts every `<a href>` link.
-3. Keeps only links that belong to the same domain (relative links like `/about` are resolved, `www.` is ignored, `#fragments` are removed).
-4. Visits each new link using a breadth-first queue, repeating until no new pages are found.
-5. Outputs all discovered pages as sitemap XML.
+3. Keeps only links that belong to the same domain. Relative links like `/about` are resolved, and URLs are normalized.
+4. Visits each new link using a breadth-first queue, until no new pages are found.
+5. Saves the results as JSON and XML files.
 
 ## Features
 
 - **Same-domain filtering**: external links are ignored.
-- **Cycle-safe**: a `Set` of visited URLs prevents infinite loops (`/about -> /contact -> /about`).
-- **Breadth-first crawl**: each page is found via its shortest path.
+- **URL normalization**: `https://example.com` and `https://example.com/`, `/about` and `/about/`, `/about#team` and `/about` are treated as the same page, so each page is stored once.
+- **Cycle-safe**: a `Set` of visited URLs prevents infinite loops.
+- **Breadth-first crawl**: each page is found through its shortest path.
 - **Optional depth limit** (`-d`): control how many clicks away from the start page to crawl.
+- **URL hierarchy**: for every page, the tool stores its depth and all its parents, from the start page down to the page where the link was found.
 - **Redirect handling**: follows redirects up to a maximum number of tries.
-- **Clean output**: progress and errors go to stderr, so the XML on stdout can be redirected to a file.
-
-## Project structure
-
-| Class | Responsibility |
-|---|---|
-| `ArgumentParser` | Reads `-u` and `-d` flags |
-| `UrlValidator` | Checks the URL is a valid HTTP/HTTPS URL |
-| `PageFetcher` | Fetches HTML and follows redirects |
-| `LinkExtractor` | Extracts `href` values with Nokogiri |
-| `LinkCleaner` | Resolves relative links, filters domain, removes fragments and duplicates |
-| `Crawler` | BFS crawl with a queue of `[url, depth]` and a visited set |
-| `SitemapXml` | Builds the XML output with `Nokogiri::XML::Builder` |
-
-## Requirements
-
-- Ruby 3+
-- [Nokogiri](https://nokogiri.org/): `gem install nokogiri`
+- **Clean output**: progress and errors go to stderr.
 
 ## Usage
 
@@ -44,9 +31,6 @@ ruby sitemap.rb -u https://quotes.toscrape.com
 
 # Limit the crawl to 2 clicks from the start page
 ruby sitemap.rb -u https://quotes.toscrape.com -d 2
-
-# Save the sitemap to a file
-ruby sitemap.rb -u https://quotes.toscrape.com -d 2 > sitemap.xml
 ```
 
 | Flag | Description |
@@ -54,7 +38,16 @@ ruby sitemap.rb -u https://quotes.toscrape.com -d 2 > sitemap.xml
 | `-u URL` | Starting URL (required) |
 | `-d DEPTH` | Maximum depth to crawl (optional, default: no limit) |
 
-## Example output
+## Output files
+
+| File | Content |
+|---|---|
+| `sitemap.xml` | All pages in the standard sitemap format |
+| `hierarchy.xml` | Every page with its depth and parent pages |
+| `links.json` | The crawled links saved as JSON |
+| `hierarchy.json` | The page hierarchy saved as JSON |
+
+### sitemap.xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -68,7 +61,71 @@ ruby sitemap.rb -u https://quotes.toscrape.com -d 2 > sitemap.xml
 </urlset>
 ```
 
+### hierarchy.xml
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+  <page>
+    <loc>https://quotes.toscrape.com/</loc>
+    <depth>0</depth>
+    <parents/>
+  </page>
+  <page>
+    <loc>https://quotes.toscrape.com/login</loc>
+    <depth>1</depth>
+    <parents>
+      <ancestor>https://quotes.toscrape.com/</ancestor>
+    </parents>
+  </page>
+</pages>
+```
+
+## Project structure
+
+```
+sitemap/
+├── sitemap.rb                 # entry point
+├── lib/
+│   ├── argument_parser.rb     # reads -u and -d flags
+│   ├── runner.rb              # runs the steps in order
+│   ├── crawler.rb             # BFS crawl, visited set, depth and parents
+│   ├── page_fetcher.rb        # HTTP requests and redirects
+│   ├── link_extractor.rb      # extracts href values (Nokogiri)
+│   ├── link_cleaner.rb        # same-domain filter, absolute URLs
+│   ├── url_normalizer.rb      # trailing slash, fragment, case
+│   ├── url_validator.rb       # checks the URL is valid HTTP/HTTPS
+│   ├── link_storage.rb        # saves and loads JSON
+│   ├── sitemap_xml.rb         # builds sitemap.xml content
+│   ├── hierarchy_xml.rb       # builds hierarchy.xml content
+│   └── steps/
+│       ├── validate_step.rb
+│       ├── crawl_step.rb
+│       ├── save_step.rb
+│       ├── xml_step.rb
+│       ├── hierarchy_step.rb
+│       └── print_step.rb
+├── README.md
+└── project_description.md
+```
+
+### Design
+
+The code follows the Single Responsibility Principle. Each class does one job, and `Runner` runs a list of steps in order, passing a shared `context` hash between them:
+
+```ruby
+STEPS = [ValidateStep, CrawlStep, SaveStep, XmlStep, HierarchyStep, PrintStep]
+```
+
+To add a new feature, create a new step file and add one line to `STEPS`. Classes that do not need to store data (for example `UrlValidator`, `UrlNormalizer`, `LinkCleaner`) use class methods instead of objects. The crawler receives its fetcher, extractor and cleaner from outside (dependency injection).
+
+## Requirements
+
+- Ruby 3+
+- [Nokogiri](https://nokogiri.org/): `gem install nokogiri`
+
 ## Notes
 
-- Be polite: use a depth limit on large sites, since the crawler fetches pages one at a time and some sites block bots.
-- This project was built to practice Ruby classes, BFS, URL handling, and XML generation.
+- Use a depth limit on large sites. The crawler fetches pages one at a time, and some sites block bots.
+- Built to practice Ruby classes, BFS, URL handling, SRP, and XML generation.
+- The output files in this repo were generated by running the command above with -d 2 on quotes.toscrape.com

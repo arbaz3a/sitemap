@@ -1,7 +1,6 @@
 require "uri"
 require "net/http"
 
-
 class PageFetcher
   Page = Struct.new(:url, :body, :error)
 
@@ -21,5 +20,7 @@ class PageFetcher
       end
     end
     Page.new(url, "", "Too many redirections")
+  rescue SocketError, SystemCallError, Timeout::Error, IOError, URI::Error => e
+    Page.new(url, "", "Network error: #{e.message}")
   end
 end

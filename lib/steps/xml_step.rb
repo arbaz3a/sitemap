@@ -4,6 +4,6 @@ class XmlStep
   FILE_NAME = "sitemap.xml"
 
   def self.call(context)
-    File.write(FILE_NAME, SitemapXml.build(context[:links]))
+    File.write(FILE_NAME, SitemapXml.build(context[:pages].keys))
   end
 end

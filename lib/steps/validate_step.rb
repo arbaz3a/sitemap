@@ -1,3 +1,4 @@
+require "uri"
 require_relative "../url_validator"
 
 class ValidateStep
@@ -5,9 +6,10 @@ class ValidateStep
     url_string = context[:options][:url]
     raise "Please Enter a URL" if url_string.nil?
 
-    validator = UrlValidator.new(url_string)
-    raise "Invalid URL" unless validator.valid?
+    uri = URI(url_string)
+    raise "Invalid URL" unless UrlValidator.valid?(uri)
 
-    context[:url] = validator.url
+    # context[:url] = URI(url_string)
+    context[:url] = uri
   end
 end

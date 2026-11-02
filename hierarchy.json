@@ -1,0 +1,1566 @@
+{
+  "https://quotes.toscrape.com/": {
+    "depth": 0,
+    "parents": []
+  },
+  "https://quotes.toscrape.com/login": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/author/Albert-Einstein": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/change/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/deep-thoughts/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/thinking/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/world/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/author/J-K-Rowling": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/abilities/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/choices/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/inspirational/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/life/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/live/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/miracle/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/miracles/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/author/Jane-Austen": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/aliteracy/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/books/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/classic/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/humor/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/author/Marilyn-Monroe": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/be-yourself/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/adulthood/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/success/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/value/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/author/Andre-Gide": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/love/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/author/Thomas-A-Edison": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/edison/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/failure/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/paraphrased/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/author/Eleanor-Roosevelt": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/misattributed-eleanor-roosevelt/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/author/Steve-Martin": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/obvious/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/simile/page/1": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/page/2": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/love": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/inspirational": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/life": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/humor": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/books": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/reading": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/friendship": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/friends": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/truth": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "https://quotes.toscrape.com/tag/simile": {
+    "depth": 1,
+    "parents": [
+      "https://quotes.toscrape.com/"
+    ]
+  },
+  "http://quotes.toscrape.com/": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/author/Albert-Einstein"
+    ]
+  },
+  "http://quotes.toscrape.com/login": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/author/Albert-Einstein"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/change/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Albert-Einstein": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/deep-thoughts/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/thinking/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/world/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/love": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/inspirational": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/life": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/humor": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/books": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/reading": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/friendship": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/friends": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/truth": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/simile": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/change/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Terry-Pratchett": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/thinking/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/humor/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/thinking/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/open-mind/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/thinking/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/abilities/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/abilities/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/J-K-Rowling": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/abilities/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/choices/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/abilities/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/inspirational/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/life/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/live/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/miracle/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/miracles/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Marilyn-Monroe": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/be-yourself/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Thomas-A-Edison": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/edison/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/failure/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/paraphrased/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/friends/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/heartbreak/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/love/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/sisters/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Elie-Wiesel": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/activism/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/apathy/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/hate/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/indifference/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/opposite/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/philosophy/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/death/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/George-Eliot": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/C-S-Lewis": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/books/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/reading/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/tea/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Martin-Luther-King-Jr": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/hope/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Helen-Keller": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/inspirational/page/2": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Andre-Gide": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Douglas-Adams": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/navigation/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Mark-Twain": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/contentment/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/friendship/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Allen-Saunders": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/fate/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/misattributed-john-lennon/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/planning/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/plans/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Dr-Seuss": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/comedy/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/yourself/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/simile/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/George-Bernard-Shaw": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Ralph-Waldo-Emerson": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/regrets/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/life/page/2": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/aliteracy/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/aliteracy/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Jane-Austen": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/aliteracy/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/classic/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/aliteracy/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Jorge-Luis-Borges": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/library/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Haruki-Murakami": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/thought/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Ernest-Hemingway": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/novelist-quotes/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/J-D-Salinger": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/authors/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/literature/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/writing/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Madeleine-LEngle": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/children/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/difficult/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/grown-ups/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/write/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/writers/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/books/page/2": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Steve-Martin": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/obvious/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Garrison-Keillor": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/religion/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Jim-Henson": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Charles-M-Schulz": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/chocolate/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/food/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Suzanne-Collins": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Charles-Bukowski": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/George-Carlin": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/insanity/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/lies/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/lying/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/self-indulgence/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/truth/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/humor/page/2": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/adulthood/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/adulthood/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/success/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/adulthood/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/value/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/adulthood/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Bob-Marley": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/love/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Friedrich-Nietzsche": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/love/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/lack-of-friendship/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/love/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/lack-of-love/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/love/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/marriage/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/love/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/unhappy-marriage/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/love/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Pablo-Neruda": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/love/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/poetry/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/love/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/girls/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/love/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/James-Baldwin": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/love/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/love/page/2": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/love/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Mother-Teresa": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/paraphrased/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/misattributed-to-mother-teresa/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/paraphrased/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/misattributed-eleanor-roosevelt/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/misattributed-eleanor-roosevelt/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Eleanor-Roosevelt": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/misattributed-eleanor-roosevelt/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Stephenie-Meyer": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/simile/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/drug/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/simile/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/romance/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/simile/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/courage/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/page/2"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/simplicity/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/page/2"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/understand/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/page/2"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/fantasy/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/page/2"
+    ]
+  },
+  "http://quotes.toscrape.com/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/page/2"
+    ]
+  },
+  "http://quotes.toscrape.com/page/3": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/page/2"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/learning/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/reading"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/seuss/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/reading"
+    ]
+  },
+  "http://quotes.toscrape.com/author/William-Nicholson": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/reading"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/misattributed-to-c-s-lewis/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/reading"
+    ]
+  },
+  "http://quotes.toscrape.com/author/George-R-R-Martin": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/reading"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/read/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/reading"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/readers/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/reading"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/reading-books/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/reading"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Alfred-Tennyson": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/friendship"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/misattributed-mark-twain/page/1": {
+    "depth": 2,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/truth"
+    ]
+  },
+  "http://quotes.toscrape.com/page/2": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/author/Albert-Einstein",
+      "http://quotes.toscrape.com/"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Jimi-Hendrix": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1",
+      "http://quotes.toscrape.com/tag/death/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/John-Lennon": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1",
+      "http://quotes.toscrape.com/tag/hope/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/beatles/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1",
+      "http://quotes.toscrape.com/tag/hope/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/connection/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1",
+      "http://quotes.toscrape.com/tag/hope/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/dreamers/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1",
+      "http://quotes.toscrape.com/tag/hope/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/dreaming/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1",
+      "http://quotes.toscrape.com/tag/hope/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/dreams/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1",
+      "http://quotes.toscrape.com/tag/hope/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/peace/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/inspirational/page/1",
+      "http://quotes.toscrape.com/tag/hope/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/Khaled-Hosseini": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/life/page/1",
+      "http://quotes.toscrape.com/tag/life/page/2"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/good/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1",
+      "http://quotes.toscrape.com/tag/writing/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/fairy-tales/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1",
+      "http://quotes.toscrape.com/tag/children/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/mind/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/books/page/1",
+      "http://quotes.toscrape.com/tag/books/page/2"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/christianity/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1",
+      "http://quotes.toscrape.com/tag/religion/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/faith/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1",
+      "http://quotes.toscrape.com/tag/religion/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/sun/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1",
+      "http://quotes.toscrape.com/tag/religion/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/author/W-C-Fields": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1",
+      "http://quotes.toscrape.com/tag/humor/page/2"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/sinister/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1",
+      "http://quotes.toscrape.com/tag/humor/page/2"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/romantic/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1",
+      "http://quotes.toscrape.com/tag/humor/page/2"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/women/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/humor/page/1",
+      "http://quotes.toscrape.com/tag/humor/page/2"
+    ]
+  },
+  "http://quotes.toscrape.com/author/J-M-Barrie": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/love/page/1",
+      "http://quotes.toscrape.com/tag/love/page/2"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/adventure/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/love/page/1",
+      "http://quotes.toscrape.com/tag/love/page/2"
+    ]
+  },
+  "http://quotes.toscrape.com/author/E-E-Cummings": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/page/2",
+      "http://quotes.toscrape.com/tag/courage/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/happiness/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/page/2",
+      "http://quotes.toscrape.com/page/3"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/attributed-no-source/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/page/2",
+      "http://quotes.toscrape.com/page/3"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/imagination/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/page/2",
+      "http://quotes.toscrape.com/page/3"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/music/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/page/2",
+      "http://quotes.toscrape.com/page/3"
+    ]
+  },
+  "http://quotes.toscrape.com/page/4": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/page/2",
+      "http://quotes.toscrape.com/page/3"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/knowledge/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/reading",
+      "http://quotes.toscrape.com/tag/learning/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/understanding/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/reading",
+      "http://quotes.toscrape.com/tag/learning/page/1"
+    ]
+  },
+  "http://quotes.toscrape.com/tag/wisdom/page/1": {
+    "depth": 3,
+    "parents": [
+      "https://quotes.toscrape.com/",
+      "https://quotes.toscrape.com/tag/reading",
+      "http://quotes.toscrape.com/tag/learning/page/1"
+    ]
+  }
+}

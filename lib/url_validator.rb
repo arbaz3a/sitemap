@@ -1,14 +1,12 @@
 require "uri"
 
 class UrlValidator
-  attr_reader :url
-  def initialize(url)
-    @url = URI(url)
+  # def self.valid?(url_string)
+  def self.valid?(uri)
+    # uri = URI.parse(url_string)
+    # uri.is_a?(URI::HTTP) && !uri.host.nil?
+    uri.is_a?(URI::HTTP) && !uri.host.to_s.empty?
   rescue URI::InvalidURIError
-    @url = nil
-  end
-
-  def valid?
-      @url.is_a?(URI::HTTP) && !@url.host.nil?
+    false
   end
 end
